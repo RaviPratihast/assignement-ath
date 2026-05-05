@@ -3,6 +3,7 @@ import { HeroSection } from "./components/HeroSection";
 import { FilterContainer } from "./components/FilterContainer";
 import { FeaturedSection } from "./components/FeaturedSection";
 import { EditorialGrid } from "./components/EditorialGrid";
+import { NewsletterSection } from "./components/NewsletterSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       </div>
       <FeaturedSection />
       <EditorialGrid />
+      <NewsletterSection />
     </main>
   );
 }

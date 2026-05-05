@@ -2,6 +2,7 @@ import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
 import { FilterContainer } from "./components/FilterContainer";
 import { FeaturedSection } from "./components/FeaturedSection";
+import { EditorialGrid } from "./components/EditorialGrid";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         </div>
       </div>
       <FeaturedSection />
+      <EditorialGrid />
     </main>
   );
 }

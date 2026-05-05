@@ -1,0 +1,744 @@
+{
+  "_comment": "AI generated. @todo: review",
+  "globaldata": {
+    "global_theme_settings": "data-institute-theme",
+    "siteIdentifier": "ahcom",
+    "brand": {
+      "name": "athenaInstitute",
+      "parent_brand": "athenahealth"
+    },
+    "menu": {
+      "menu-0": {
+        "name": "Perspectives",
+        "tid": "menu-0",
+        "url_str": "/perspectives",
+        "description": "Editorial analysis and point-of-view content.",
+        "unique_name": "perspectives",
+        "unique_name_footer": "",
+        "isdefault": "1"
+      },
+      "menu-1": {
+        "name": "Research",
+        "tid": "menu-1",
+        "url_str": "/research",
+        "description": "Long-form reports and featured studies.",
+        "unique_name": "research",
+        "unique_name_footer": "",
+        "isdefault": "0"
+      },
+      "menu-2": {
+        "name": "Events",
+        "tid": "menu-2",
+        "url_str": "/events",
+        "description": "Upcoming conversations and institute events.",
+        "unique_name": "events",
+        "unique_name_footer": "",
+        "isdefault": "0"
+      },
+      "menu-3": {
+        "name": "Innovation",
+        "tid": "menu-3",
+        "url_str": "/innovation",
+        "description": "Innovation stories and product thinking.",
+        "unique_name": "innovation",
+        "unique_name_footer": "",
+        "isdefault": "0"
+      },
+      "menu-4": {
+        "name": "About",
+        "tid": "menu-4",
+        "url_str": "/about",
+        "description": "About the institute.",
+        "unique_name": "about",
+        "unique_name_footer": "",
+        "isdefault": "0"
+      }
+    },
+    "footer_menu": {
+      "menu-0": [
+        {
+          "name": "Sections",
+          "tid": "footer-menu-0",
+          "url_str": "route:<nolink>",
+          "description": null,
+          "unique_name": "sections",
+          "unique_name_footer": "sections",
+          "isdefault": "0",
+          "child": {
+            "menu-0": {
+              "name": "Perspectives",
+              "tid": "footer-menu-0-0",
+              "url_str": "/perspectives",
+              "description": null,
+              "unique_name": "perspectives",
+              "unique_name_footer": "",
+              "isdefault": "0"
+            },
+            "menu-1": {
+              "name": "Research",
+              "tid": "footer-menu-0-1",
+              "url_str": "/research",
+              "description": null,
+              "unique_name": "research",
+              "unique_name_footer": "",
+              "isdefault": "0"
+            },
+            "menu-2": {
+              "name": "Events",
+              "tid": "footer-menu-0-2",
+              "url_str": "/events",
+              "description": null,
+              "unique_name": "events",
+              "unique_name_footer": "",
+              "isdefault": "0"
+            },
+            "menu-3": {
+              "name": "Innovation",
+              "tid": "footer-menu-0-3",
+              "url_str": "/innovation",
+              "description": null,
+              "unique_name": "innovation",
+              "unique_name_footer": "",
+              "isdefault": "0"
+            }
+          }
+        }
+      ],
+      "menu-1": [
+        {
+          "name": "Legal",
+          "tid": "footer-menu-1",
+          "url_str": "route:<nolink>",
+          "description": null,
+          "unique_name": "legal",
+          "unique_name_footer": "legal",
+          "isdefault": "0",
+          "child": {
+            "menu-0": {
+              "name": "Privacy Policy",
+              "tid": "footer-menu-1-0",
+              "url_str": "/privacy-policy",
+              "description": null,
+              "unique_name": "privacy-policy",
+              "unique_name_footer": "",
+              "isdefault": "0"
+            },
+            "menu-1": {
+              "name": "Terms of Service",
+              "tid": "footer-menu-1-1",
+              "url_str": "/terms-of-service",
+              "description": null,
+              "unique_name": "terms-of-service",
+              "unique_name_footer": "",
+              "isdefault": "0"
+            },
+            "menu-2": {
+              "name": "Accessibility",
+              "tid": "footer-menu-1-2",
+              "url_str": "/accessibility",
+              "description": null,
+              "unique_name": "accessibility",
+              "unique_name_footer": "",
+              "isdefault": "0"
+            }
+          }
+        }
+      ]
+    },
+    "social_links": [
+      {
+        "name": "Social Link 1",
+        "url_str": "#",
+        "description": "Icon-only social link shown in footer.",
+        "unique_name": "social-link-1"
+      },
+      {
+        "name": "Social Link 2",
+        "url_str": "#",
+        "description": "Icon-only social link shown in footer.",
+        "unique_name": "social-link-2"
+      }
+    ]
+  },
+  "pagedata": {
+    "status_name": "Valid node",
+    "status_code": "200",
+    "title": "athenaInstitute",
+    "thankyou_page": "0",
+    "page_type": "Regular Landing Page",
+    "content_type": "landing_page",
+    "meta_info": {
+      "title": "athenaInstitute | Data Institute",
+      "description": "Editorial analysis and scientific modeling designed to bring cost clarity to care.",
+      "canonical": "/athena-institute",
+      "service_crawl": ""
+    },
+    "breadcrumbs": [],
+    "rc_settings": null,
+    "source_figma": {
+      "source_url": "https://www.figma.com/design/pWQtYXsBEyilfItFX0Cggu/DataInstitute-Interview?node-id=1-289&m=dev",
+      "file_key": "pWQtYXsBEyilfItFX0Cggu",
+      "desktop_node_id": "1:2",
+      "mobile_node_id": "1:289"
+    },
+    "custom_blocks": {
+      "1": {
+        "panel_info": {
+          "machine_name": "di_top_nav"
+        },
+        "data": {
+          "type": [
+            {
+              "target_id": "di_top_nav"
+            }
+          ],
+          "brand": {
+            "label": "athenaInstitute"
+          },
+          "navigation_links": [
+            {
+              "label": "Perspectives",
+              "link": "/perspectives",
+              "is_active": true
+            },
+            {
+              "label": "Research",
+              "link": "/research",
+              "is_active": false
+            },
+            {
+              "label": "Events",
+              "link": "/events",
+              "is_active": false
+            },
+            {
+              "label": "Innovation",
+              "link": "/innovation",
+              "is_active": false
+            },
+            {
+              "label": "About",
+              "link": "/about",
+              "is_active": false
+            }
+          ],
+          "cta": {
+            "label": "Back to athenahealth",
+            "link": "https://www.athenahealth.com"
+          },
+          "mobile_menu_button": {
+            "label": "Open navigation",
+            "icon": "hamburger"
+          }
+        }
+      },
+      "2": {
+        "panel_info": {
+          "machine_name": "di_hero"
+        },
+        "data": {
+          "type": [
+            {
+              "target_id": "di_hero"
+            }
+          ],
+          "theme": "dark_plasma",
+          "desktop": {
+            "title": "Takeaways that are bringing cost clarity to care",
+            "body": null,
+            "cta": {
+              "label": "Receive insights",
+              "link": "#newsletter"
+            },
+            "meta_label": "VOLUME 24.03 - DATA-DRIVEN PERSPECTIVES"
+          },
+          "mobile": {
+            "eyebrow": "INSIGHT REPORT 2024",
+            "title": "Takeaways that are bringing cost clarity to care.",
+            "body": "Deciphering complex healthcare data through rigorous editorial analysis and scientific modeling.",
+            "cta": {
+              "label": "Explore Research",
+              "link": "#mobile-editorial-stack"
+            }
+          },
+          "background_effects": {
+            "desktop": {
+              "gradient_start": "#1A1345",
+              "gradient_end": "#160F41",
+              "blur_orbs": [
+                {
+                  "color": "#7141C4",
+                  "position": "top-left"
+                },
+                {
+                  "color": "#3B8AC3",
+                  "position": "bottom-right"
+                }
+              ]
+            },
+            "mobile": {
+              "gradient_start": "#160F41",
+              "gradient_end": "#1A1345",
+              "blur_orbs": [
+                {
+                  "color": "#7141C4",
+                  "position": "top-right"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "panel_info": {
+          "machine_name": "di_filter_bar"
+        },
+        "data": {
+          "type": [
+            {
+              "target_id": "di_filter_bar"
+            }
+          ],
+          "desktop": {
+            "controls": [
+              {
+                "control_type": "select",
+                "key": "topic",
+                "label": "All Topics",
+                "selected_value": "All Topics"
+              },
+              {
+                "control_type": "select",
+                "key": "specialty",
+                "label": "All Specialties",
+                "selected_value": "All Specialties"
+              },
+              {
+                "control_type": "search",
+                "key": "query",
+                "placeholder": "Search insights, research, or authors..."
+              },
+              {
+                "control_type": "button",
+                "key": "apply",
+                "label": "Apply Filters"
+              }
+            ]
+          },
+          "mobile": {
+            "chips": [
+              {
+                "label": "All",
+                "value": "all",
+                "active": true
+              },
+              {
+                "label": "Economics",
+                "value": "economics",
+                "active": false
+              },
+              {
+                "label": "Policy",
+                "value": "policy",
+                "active": false
+              },
+              {
+                "label": "Innovation",
+                "value": "innovation",
+                "active": false
+              }
+            ]
+          }
+        }
+      },
+      "4": {
+        "panel_info": {
+          "machine_name": "di_featured_section"
+        },
+        "data": {
+          "type": [
+            {
+              "target_id": "di_featured_section"
+            }
+          ],
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          },
+          "primary_feature": {
+            "tag": "FEATURED RESEARCH",
+            "read_time": "8 min read",
+            "title": "The 2024 Physician Burnout Index: A Shift in Paradigms",
+            "description": "Our latest study uncovers the hidden correlation between administrative burden and care quality across 3,000 practices.",
+            "link": "/research/physician-burnout-index-2024",
+            "image": {
+              "rel_url": "https://www.figma.com/api/mcp/asset/59ce477f-0cd0-4c30-b233-8a2da6ccb99f",
+              "options": {
+                "alt": "Blue-lit laboratory and surgical lighting used as the featured research visual."
+              }
+            },
+            "impact_metric": {
+              "value": "68%",
+              "label": "IMPACT FACTOR",
+              "description": "Increased Efficiency"
+            }
+          },
+          "secondary_feature": {
+            "label": "Perspective Spotlight",
+            "quote": "\"Data is the scalpel of the 21st century. Precision matters more than volume.\"",
+            "author": {
+              "name": "Dr. Helena Vance",
+              "role": "Chief Medical Officer",
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/3969f278-fbcf-4f8f-b0a3-6167d9df9a9f",
+                "options": {
+                  "alt": "Portrait of Dr. Helena Vance."
+                }
+              }
+            }
+          }
+        }
+      },
+      "5": {
+        "panel_info": {
+          "machine_name": "di_editorial_grid"
+        },
+        "data": {
+          "type": [
+            {
+              "target_id": "di_editorial_grid"
+            }
+          ],
+          "visibility": {
+            "desktop": true,
+            "mobile": false
+          },
+          "layout_order": [
+            "desktop-card-1",
+            "desktop-card-2",
+            "desktop-card-3",
+            "desktop-card-4",
+            "desktop-card-5",
+            "desktop-card-6"
+          ],
+          "cards": [
+            {
+              "id": "desktop-card-1",
+              "tag": "PATIENT PORTALS",
+              "date": "MAY 12, 2024",
+              "category": "TECHNOLOGY",
+              "title": "Reimagining Patient Access in Rural Communities",
+              "description": "How tele-health infrastructure is bridging the gap for 12 million under-served Americans this year.",
+              "link": "/perspectives/reimagining-patient-access-in-rural-communities",
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/b62a23d7-1079-4e5c-abf1-65537d65b959",
+                "options": {
+                  "alt": "Tablet displaying patient portal analytics charts."
+                }
+              }
+            },
+            {
+              "id": "desktop-card-2",
+              "tag": "REVENUE CYCLE",
+              "date": "MAY 08, 2024",
+              "category": "OPERATIONS",
+              "title": "The Invisible Cost of Claim Denials",
+              "description": "Analysis of claim processing delays and their direct impact on provider liquidity and operational health.",
+              "link": "/perspectives/the-invisible-cost-of-claim-denials",
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/8b236a5c-a158-4622-bfd8-d26592578806",
+                "options": {
+                  "alt": "Laptop showing revenue cycle and analytics dashboards."
+                }
+              }
+            },
+            {
+              "id": "desktop-card-3",
+              "tag": "CLINICAL RESEARCH",
+              "date": "MAY 02, 2024",
+              "category": "AI & ML",
+              "title": "AI in the Exam Room: Enhancing the Human Connection",
+              "description": "New findings on how ambient listening technology reduces physician screen time by 40%.",
+              "link": "/perspectives/ai-in-the-exam-room-enhancing-the-human-connection",
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/ba2d3b61-5375-4be8-9532-07b5d80d5db3",
+                "options": {
+                  "alt": "Microscope and glassware representing clinical research and AI-assisted care."
+                }
+              }
+            },
+            {
+              "id": "desktop-card-5",
+              "tag": "HEALTH EQUITY",
+              "date": "APRIL 28, 2024",
+              "category": "DIVERSITY",
+              "title": "Addressing Bias in Clinical Algorithms",
+              "description": "A longitudinal study on algorithm refinement for equitable healthcare outcomes across demographics.",
+              "link": "/perspectives/addressing-bias-in-clinical-algorithms",
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/ec880fc3-14bf-46e6-859e-5fd8e8b4617e",
+                "options": {
+                  "alt": "Clinician reviewing a clinical algorithm interface on a transparent display."
+                }
+              }
+            },
+            {
+              "id": "desktop-card-6",
+              "tag": "INNOVATION",
+              "date": "APRIL 22, 2024",
+              "category": "VENTURE",
+              "title": "The Future of Value-Based Care: 2025 Outlook",
+              "description": "Predictive modeling on how reimbursement structures will evolve in the next fiscal cycle.",
+              "link": "/perspectives/the-future-of-value-based-care-2025-outlook",
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/10f8467a-1be1-41e5-89cd-0157db3180fe",
+                "options": {
+                  "alt": "Hands typing on a keyboard to represent innovation and future-focused analysis."
+                }
+              }
+            }
+          ],
+          "insight_tile": {
+            "id": "desktop-card-4",
+            "tag": "QUICK INSIGHT",
+            "title": "Practice Growth Trends",
+            "metrics": [
+              {
+                "label": "Specialty Adoption",
+                "value": "12.4%"
+              },
+              {
+                "label": "Patient Retention",
+                "value": "89.1%"
+              }
+            ],
+            "cta": {
+              "label": "View Full Report",
+              "link": "/research/practice-growth-trends"
+            }
+          },
+          "pagination_cta": {
+            "label": "Load More Perspectives",
+            "link": "#load-more-perspectives"
+          }
+        }
+      },
+      "6": {
+        "panel_info": {
+          "machine_name": "di_mobile_editorial_stack"
+        },
+        "data": {
+          "type": [
+            {
+              "target_id": "di_mobile_editorial_stack"
+            }
+          ],
+          "visibility": {
+            "desktop": false,
+            "mobile": true
+          },
+          "section_id": "mobile-editorial-stack",
+          "articles": [
+            {
+              "id": "mobile-article-1",
+              "tag": "ECONOMICS",
+              "title": "The Quantifiable Shift: How AI is reducing overhead in rural clinics.",
+              "description": "Recent data suggests a 15% reduction in administrative burden across integrated networks.",
+              "cta": {
+                "label": "Read Analysis",
+                "link": "/perspectives/the-quantifiable-shift-ai-in-rural-clinics"
+              },
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/03580a46-c52d-4a3c-9b3d-2a8d3ad77bd3",
+                "options": {
+                  "alt": "Abstract energy-like visual used for the economics article."
+                }
+              }
+            },
+            {
+              "id": "mobile-article-2",
+              "tag": "INNOVATION",
+              "title": "Interoperability and the Patient Journey.",
+              "description": "Examining the friction points in data sharing and the future of longitudinal records.",
+              "cta": {
+                "label": "Read Analysis",
+                "link": "/perspectives/interoperability-and-the-patient-journey"
+              },
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/47bcbcfc-0888-4ef3-b86f-0f6aad4c48b8",
+                "options": {
+                  "alt": "Bar chart visualization shown on a monitor."
+                }
+              }
+            },
+            {
+              "id": "mobile-article-3",
+              "tag": "POLICY",
+              "title": "Legislative Impacts on Provider Reimbursement.",
+              "description": "Mapping the 2024 policy landscape and its effect on independent practices.",
+              "cta": {
+                "label": "Read Analysis",
+                "link": "/perspectives/legislative-impacts-on-provider-reimbursement"
+              },
+              "image": {
+                "rel_url": "https://www.figma.com/api/mcp/asset/085bc1f9-4fde-46fb-93f5-dc99662c249f",
+                "options": {
+                  "alt": "Blue-lit healthcare image representing policy and reimbursement analysis."
+                }
+              }
+            }
+          ]
+        }
+      },
+      "7": {
+        "panel_info": {
+          "machine_name": "di_newsletter"
+        },
+        "data": {
+          "type": [
+            {
+              "target_id": "di_newsletter"
+            }
+          ],
+          "section_id": "newsletter",
+          "desktop": {
+            "eyebrow": "CURATED KNOWLEDGE",
+            "title": "Weekly briefs on the economics of empathy and the science of scale.",
+            "input_placeholder": "Email address",
+            "cta": {
+              "label": "Subscribe",
+              "link": "#subscribe"
+            },
+            "disclaimer": "By subscribing, you agree to our Privacy Policy and clinical data standards."
+          },
+          "mobile": {
+            "title": "Stay at the forefront of healthcare.",
+            "body": "Weekly insights delivered with clinical precision and editorial clarity.",
+            "input_placeholder": "Email address",
+            "cta": {
+              "label": "Subscribe",
+              "link": "#subscribe"
+            }
+          }
+        }
+      },
+      "8": {
+        "panel_info": {
+          "machine_name": "di_footer"
+        },
+        "data": {
+          "type": [
+            {
+              "target_id": "di_footer"
+            }
+          ],
+          "desktop": {
+            "brand": {
+              "label": "athenaInstitute",
+              "description": "Advancing the research, science, and data behind the future of healthcare ecosystems."
+            },
+            "sections": [
+              {
+                "label": "SECTIONS",
+                "links": [
+                  {
+                    "label": "Perspectives",
+                    "link": "/perspectives"
+                  },
+                  {
+                    "label": "Research",
+                    "link": "/research"
+                  },
+                  {
+                    "label": "Events",
+                    "link": "/events"
+                  },
+                  {
+                    "label": "Innovation",
+                    "link": "/innovation"
+                  }
+                ]
+              },
+              {
+                "label": "LEGAL",
+                "links": [
+                  {
+                    "label": "Privacy Policy",
+                    "link": "/privacy-policy"
+                  },
+                  {
+                    "label": "Terms of Service",
+                    "link": "/terms-of-service"
+                  },
+                  {
+                    "label": "Accessibility",
+                    "link": "/accessibility"
+                  }
+                ]
+              },
+              {
+                "label": "CONNECT",
+                "links": [
+                  {
+                    "label": "Social Link 1",
+                    "link": "#",
+                    "icon_only": true
+                  },
+                  {
+                    "label": "Social Link 2",
+                    "link": "#",
+                    "icon_only": true
+                  }
+                ]
+              }
+            ],
+            "copyright": "\u00a9 2024 athenaInstitute. All rights reserved."
+          },
+          "mobile": {
+            "brand": {
+              "label": "athenaInstitute",
+              "description": "Bridging the gap between raw medical data and transformative healthcare insights through expert analysis."
+            },
+            "sections": [
+              {
+                "label": "PLATFORM",
+                "links": [
+                  {
+                    "label": "Perspectives",
+                    "link": "/perspectives"
+                  },
+                  {
+                    "label": "Research",
+                    "link": "/research"
+                  },
+                  {
+                    "label": "Innovation",
+                    "link": "/innovation"
+                  }
+                ]
+              },
+              {
+                "label": "LEGAL",
+                "links": [
+                  {
+                    "label": "Privacy Policy",
+                    "link": "/privacy-policy"
+                  },
+                  {
+                    "label": "Terms",
+                    "link": "/terms"
+                  },
+                  {
+                    "label": "Accessibility",
+                    "link": "/accessibility"
+                  }
+                ]
+              }
+            ],
+            "copyright": "\u00a9 2024 athenaInstitute. All rights reserved."
+          }
+        }
+      }
+    }
+  }
+}

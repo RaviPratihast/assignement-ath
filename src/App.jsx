@@ -1,17 +1,25 @@
+import { Navbar } from "./components/Navbar";
+import { HeroSection } from "./components/HeroSection";
+import { FilterContainer } from "./components/FilterContainer";
+import { FeaturedSection } from "./components/FeaturedSection";
+import { EditorialGrid } from "./components/EditorialGrid";
+import { NewsletterSection } from "./components/NewsletterSection";
+import { Footer } from "./components/Footer";
+
 function App() {
   return (
-    <main className="flex justify-between items-center p-4 bg-[#160F41CC]">
-      <h1 className="text-base text-white font-bold">AthenaHealth</h1>
-      <ul className="flex gap-14 text-white">
-        <li className="cursor-pointer text-white ">Perspectives</li>
-        <li className="cursor-pointer text-[#FFFFFFB2] ">Research</li>
-        <li className="cursor-pointer text-[#FFFFFFB2] ">Events</li>
-        <li className="cursor-pointer text-[#FFFFFFB2] ">Innovation</li>
-        <li className="cursor-pointer text-[#FFFFFFB2] ">About</li>
-      </ul>
-      <button className="bg-[#362f71cc] le border-2 border-[#655f89cc] px-6 py-1 text-white rounded-full">
-        Back to AthenaHealth
-      </button>
+    <main className="min-h-screen bg-[#FBF9F1]">
+      <Navbar />
+      <div className="relative mt-[8px]">
+        <HeroSection />
+        <div className="absolute inset-x-0 bottom-0 z-20 translate-y-1/2">
+          <FilterContainer />
+        </div>
+      </div>
+      <FeaturedSection />
+      <EditorialGrid />
+      <NewsletterSection />
+      <Footer />
     </main>
   );
 }

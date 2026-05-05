@@ -83,7 +83,7 @@ function ArticleCard({ card }) {
 
   return (
     <article className="flex h-full flex-col">
-      <div className="relative aspect-[384/230] overflow-hidden rounded-[28px]">
+      <div className="relative aspect-384/230 overflow-hidden rounded-[28px]">
         <FallbackImage
           src={fallbackSrc}
           alt={image.options.alt}
@@ -91,7 +91,7 @@ function ArticleCard({ card }) {
         />
         <div className="absolute left-4 top-4">
           <span
-            className="inline-flex rounded-full bg-[#7141C4] px-4 py-1 text-[10px] font-bold leading-[15px] tracking-[0.1em] text-white uppercase"
+            className="inline-flex rounded-full bg-[#7141C4] px-4 py-1 text-[10px] font-bold leading-[15px] tracking-widest text-white uppercase"
             style={{ fontFamily: SOURCE_CODE_PRO_STACK }}
           >
             {tag}
@@ -130,7 +130,7 @@ function InsightTile({ insight }) {
           <TrendingUpIcon className="mt-1 h-4 w-6 text-[#C9C5D0]" />
         </div>
 
-        <h3 className="mt-5 text-[24px] font-bold leading-[1.25] text-black">
+        <h3 className="mt-5 text-[24px] font-bold leading-tight text-black">
           {insight.title}
         </h3>
 

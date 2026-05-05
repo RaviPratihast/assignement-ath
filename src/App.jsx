@@ -4,6 +4,7 @@ import { FilterContainer } from "./components/FilterContainer";
 import { FeaturedSection } from "./components/FeaturedSection";
 import { EditorialGrid } from "./components/EditorialGrid";
 import { NewsletterSection } from "./components/NewsletterSection";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <FeaturedSection />
       <EditorialGrid />
       <NewsletterSection />
+      <Footer />
     </main>
   );
 }

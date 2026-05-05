@@ -53,6 +53,18 @@ function FooterLinksColumn({ section }) {
   );
 }
 
+function FooterIconLink({ href, label, children }) {
+  return (
+    <a
+      href={href}
+      aria-label={label}
+      className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#D8D6DF] text-[#1D184A] transition hover:border-[#1D184A]"
+    >
+      {children}
+    </a>
+  );
+}
+
 export function Footer() {
   const footer = pageData.pagedata.custom_blocks["8"].data.desktop;
   const [sections, legal, connect] = footer.sections;
@@ -75,20 +87,18 @@ export function Footer() {
         <div className="flex flex-col gap-4">
           <FooterHeading>{connect.label}</FooterHeading>
           <div className="flex items-center gap-3">
-            <a
+            <FooterIconLink
               href={connect.links[0].link}
-              aria-label={connect.links[0].label}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#D8D6DF] text-[#1D184A] transition hover:border-[#1D184A]"
+              label={connect.links[0].label}
             >
               <ShareIcon className="h-4 w-4" />
-            </a>
-            <a
+            </FooterIconLink>
+            <FooterIconLink
               href={connect.links[1].link}
-              aria-label={connect.links[1].label}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#D8D6DF] text-[#1D184A] transition hover:border-[#1D184A]"
+              label={connect.links[1].label}
             >
               <AtSign className="h-4 w-4" />
-            </a>
+            </FooterIconLink>
           </div>
         </div>
       </div>

@@ -1,10 +1,11 @@
 import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
 import { FilterContainer } from "./components/FilterContainer";
+import { FeaturedSection } from "./components/FeaturedSection";
 
 function App() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-[#FBF9F1]">
       <Navbar />
       <div className="relative mt-[8px]">
         <HeroSection />
@@ -12,7 +13,7 @@ function App() {
           <FilterContainer />
         </div>
       </div>
-      <section className="min-h-[70vh] bg-[#F6F4EF] pt-24" />
+      <FeaturedSection />
     </main>
   );
 }

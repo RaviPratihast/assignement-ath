@@ -36,7 +36,7 @@ export function NewsletterSection() {
     >
       <div className="mx-auto flex max-w-[1280px] flex-col items-center text-center">
         <p
-          className="font-mono text-xs font-normal leading-4 tracking-[0.1em] text-[#A879FE] uppercase"
+          className="font-mono text-xs font-normal leading-4 tracking-widest text-[#A879FE] uppercase"
           style={{ fontFamily: SOURCE_CODE_PRO_STACK }}
         >
           <span className="hidden lg:inline">{desktop.eyebrow}</span>
